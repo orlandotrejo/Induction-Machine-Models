@@ -7,7 +7,7 @@ VS=sqrt(2/3)*[1 exp(1i*2*pi/3) exp(1i*4*pi/3)];
 %Parametros de la MI
 Re=0.03; Rr=0.03; Le=2.10; Lr=2.10; Ler=2.0; M=Ler; 
 Ve=1;
-%Par·metros de la carga
+%Par√°metros de la carga
 J=200; k=1.0
 
 %Matrices para el modelo
