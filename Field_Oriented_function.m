@@ -1,4 +1,4 @@
-function px=Field_Oriented_Function(t,x)
+function px=Field_Oriented_function(t,x)
 
 global Re Rr Le Lr VS M Tr J
 
