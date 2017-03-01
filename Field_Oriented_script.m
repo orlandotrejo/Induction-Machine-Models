@@ -10,7 +10,7 @@ VS=sqrt(2/3)*[1 exp(1i*2*pi/3) exp(1i*4*pi/3)];
 
 x0 = [0,0,0.05,0,0]; t0=0; t=0:0.001*377:7*377;
 
-[T,X]=ode45(@maquina_co,t,x0);
+[T,X]=ode45(@Field_Oriented_function,t,x0);
 
 Te = (M^2)*X(:,3).*X(:,2)/Lr;
 
