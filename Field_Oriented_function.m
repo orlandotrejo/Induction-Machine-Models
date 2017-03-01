@@ -1,4 +1,4 @@
-% Modelo en campo orientado de la m·quina de inducciÛn
+% Modelo en campo orientado de la m√°quina de inducci√≥n
 
 global Re Rr Le Lr VS Ler M Tr J
 
