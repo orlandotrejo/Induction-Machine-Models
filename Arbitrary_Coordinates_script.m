@@ -1,4 +1,4 @@
-%Modelo en coordenadas arbitrarias de la máquina de inducción
+%Modelo en coordenadas arbitrarias de la mÃ¡quina de inducciÃ³n
 
 global Re Rr Le Lr VS Ler M Tr R L_1 Tm J
 
@@ -12,7 +12,7 @@ VS=sqrt(2/3)*[1 exp(1i*2*pi/3) exp(1i*4*pi/3)];
 R = [Re 0;0 Rr]; L=[Le M;M Lr]; L_1=inv(L);
 x0 = [0,0,0,0,0]; t0=0; t=0:0.001*377:7*377;
 
-% Llamada a la función de integración
+% Llamada a la funciÃ³n de integraciÃ³n
 [T,X]=ode45(@maquina_ca,t,x0);
 
 ie_delta = X(:,1);
@@ -21,7 +21,7 @@ wr = X(:,3);
 theta = X(:,4);
 delta = X(:,5);
 
-%Cálculo de Par
+%CÃ¡lculo de Par
 Te=M*imag(ie_delta.*conj(ir_delta));
 
 % Paso a coordenadas primitivas
